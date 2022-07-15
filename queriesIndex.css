@@ -1,0 +1,271 @@
+/*************************/
+/*BELOW 1344px (for smaller computer)
+/*************************/
+
+@media (max-width: 84em) {
+  .aside-header h2 {
+    font-size: 2rem;
+  }
+}
+
+/*************************/
+/*BELOW 1200px (LANDSCAPE TABLET)
+/*************************/
+@media (max-width: 78.125em) {
+  html {
+    /* 9PX/16PX= 56.25% */
+    font-size: 56.25%;
+  }
+
+  /* navtigation adjustment css*/
+  .left-box {
+    width: 40%;
+  }
+
+  .right-box {
+    width: 100%;
+  }
+
+  #box1 {
+    width: 10vw;
+    height: 6vw;
+  }
+
+  #box2 {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  #logo-box {
+    width: 6vw;
+    height: 10vw;
+  }
+  #logo-box img {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .radio-stations {
+    justify-content: space-between;
+  }
+  .station-type {
+    justify-content: space-between;
+  }
+  .station-theme {
+    height: 75px;
+    width: 75px;
+    margin-left: 1%;
+  }
+
+  .radio-stations {
+    border-radius: 20px;
+  }
+
+  .theme-music {
+    justify-content: space-around;
+  }
+
+  .theme-container {
+    width: 170px;
+    height: 170px;
+  }
+
+  .theme-name {
+    font-size: 2.5rem;
+  }
+
+  /* latest hindi english css */
+
+  .album-detail {
+    padding: 5px 0px 5px 0px;
+  }
+
+  .album-detail p {
+    font-weight: 500;
+  }
+
+  /* aside section css */
+  .playlist-item-left {
+    width: 80%;
+  }
+}
+
+/*************************/
+/*BELOW 940px (TABLETS)
+/*************************/
+
+@media (max-width: 59em) {
+  /* 8PX/16PX= 50% */
+  html {
+    font-size: 50%;
+  }
+
+  .logo-icon {
+    height: 40px;
+  }
+  .container-main {
+    grid-template-columns: 100%;
+    width: 90%;
+  }
+  .playlist-container {
+    overflow-y: hidden;
+    height: auto;
+  }
+
+  .mobile-nav-component {
+    display: none;
+  }
+}
+
+/*************************/
+/*BELOW 700px (SMALLER TABLETS)
+/*************************/
+/* mobile nav */
+@media (max-width: 44em) {
+  .container-main {
+    width: 100%;
+  }
+
+  .left-box {
+    width: 50%;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 12;
+    margin-right: 3rem;
+  }
+
+  .notification-box,
+  .user-nav__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #000;
+    font-weight: 700;
+  }
+
+  .user-nav__user-photo {
+    height: 10.75rem;
+    outline: 3px solid var(--color-primary);
+  }
+
+  .mobile-nav-component {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 700;
+  }
+
+  .notification-box .button-icon::after {
+    left: 18px;
+    top: 7px;
+  }
+
+  .right-box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 11;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-open .right-box {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .mobile-nav-component {
+    display: block;
+  }
+
+  .fav-link-heading {
+    font-size: 2rem;
+  }
+
+  .release-items {
+    grid-template-columns: 1fr;
+  }
+
+  .section-head-h3 a:link,
+  .section-head-h3 a:visited {
+    font-size: 2.5rem;
+  }
+
+  .artist-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .station-type {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #box1 {
+    width: 12vw;
+    height: 8vw;
+  }
+
+  #box2 {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  #logo-box {
+    width: 8vw;
+    height: 12vw;
+  }
+  #logo-box img {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .latest-content {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  .icon-mobile-nav {
+    font-size: 4rem;
+  }
+  .playlist-item-img {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+/* ************************/
+/*BELOW 550px ( Phones) */
+/************************ */
+
+@media (max-width: 34em) {
+  .left-box {
+    width: 60%;
+  }
+  .theme-container {
+    width: 150px;
+    height: 150px;
+  }
+}

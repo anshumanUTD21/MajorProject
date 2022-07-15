@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="commonFeature.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaPlayer.css" />
+    <link rel="stylesheet" href="queriesIndex.css" />
+
+    <script
+      src="https://kit.fontawesome.com/b12b8e59b0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Amplify</title>
+  </head>
+  <body>
+    <nav class="navbar-top">
+      <header class="header">
+        <div class="left-box">
+          <div class="logo-box">
+            <a href="singleArtist.html">
+              <img
+                class="logo-icon"
+                src="Images/logo/logo.png"
+                alt="logo of the website: Amplify"
+              />
+            </a>
+            <h1 class="logo-title">AMPLIFY</h1>
+          </div>
+          <!--  -->
+          <div class="fav-link">
+            <h4 class="fav-link-heading">
+              <a class="fav-link-tag" href="#">Favourites</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="right-box">
+          <div class="search-container">
+            <div class="search-box">
+              <form action="" class="search-box-form">
+                <button type="submit" class="button-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" placeholder="Search" />
+                <button type="submit" class="button-icon">
+                  <i class="fa-solid fa-microphone"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="notification-box">
+            <button type="submit" class="button-icon">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <span class="mobile-nav-component">Notifications</span>
+          </div>
+
+          <div class="user-nav__user">
+            <img
+              src="Images/user-img.jpg"
+              alt="user pic"
+              class="user-nav__user-photo"
+            />
+            <span class="mobile-nav-component">Anshuman</span>
+          </div>
+        </div>
+        <button class="btn-mobile-nav">
+          <i class="fa-solid fa-bars icon-mobile-nav" name="menu-outline"></i>
+          <i class="fa-solid fa-xmark icon-mobile-nav" name="close-outline"></i>
+        </button>
+      </header>
+    </nav>
+
+    <main>
+      <div class="container-main">
+        <section class="content-left">
+          <div class="carousel-section section-divisor">
+            <img
+              class="img-composition"
+              src="Images/carousel_img/dance_music.jpg"
+              alt="dance music logo"
+            />
+            <img
+              class="img-composition"
+              src="Images/carousel_img/dark_music.jpg"
+              alt="dance music logo"
+            />
+            <img
+              class="img-composition"
+              src="Images/carousel_img/feel_good.jpg"
+              alt="dance music logo"
+            />
+          </div>
+          <div class="latest-release section-divisor">
+            <header class="section-head mt-3 mb-3">
+              <h3 class="section-head-h3">
+                <a href="#">Latest Releases</a>
+              </h3>
+            </header>
+            <!-- latest code -->
+
+            <div class="release-items">
+              <div class="item item1">
+                <div class="item-img">
+                  <img
+                    src="Images/Latest_release_img/coldplay.png"
+                    alt="coldplay album cover"
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="album-details">
+                  <p class="song-details">
+                    <span class="title">Paradise</span>
+                  </p>
+                  <p>
+                    <span class="artist-title">Coldplay</span>
+                  </p>
+                </div>
+                <div class="dropdown-dots">
+                  <button class="three-dot">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <div class="drop-down">
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                      <span>Play Now</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-add"></i>
+                      <span>Add To Queue</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-heart"></i>
+                      <span>Add To Favourites</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-circle-info"></i>
+                      <span>Get Info</span>
+                    </a>
+                  </div>
+                  <p class="duration">3:53</p>
+                </div>
+              </div>
+
+              <div class="item item2">
+                <div class="item-img">
+                  <img
+                    src="Images/Latest_release_img/heatwaves.jpg"
+                    alt="coldplay album cover"
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="album-details">
+                  <p class="song-details">
+                    <span class="title">Heat Wave</span>
+                  </p>
+                  <p>
+                    <span class="artist-title">Glass Animal</span>
+                  </p>
+                </div>
+                <div class="dropdown-dots">
+                  <button class="three-dot">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <div class="drop-down">
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                      <span>Play Now</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-add"></i>
+                      <span>Add To Queue</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-heart"></i>
+                      <span>Add To Favourites</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-circle-info"></i>
+                      <span>Get Info</span>
+                    </a>
+                  </div>
+                  <p class="duration">3:53</p>
+                </div>
+              </div>
+              <div class="item item3">
+                <div class="item-img">
+                  <img
+                    src="Images/Latest_release_img/hozair.jpg"
+                    alt="coldplay album cover"
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="album-details">
+                  <p class="song-details">
+                    <span class="title">Someone new</span>
+                  </p>
+                  <p>
+                    <span class="artist-title">Hozair</span>
+                  </p>
+                </div>
+                <div class="dropdown-dots">
+                  <button class="three-dot">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <div class="drop-down">
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                      <span>Play Now</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-add"></i>
+                      <span>Add To Queue</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-heart"></i>
+                      <span>Add To Favourites</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-circle-info"></i>
+                      <span>Get Info</span>
+                    </a>
+                  </div>
+                  <p class="duration">2:56</p>
+                </div>
+              </div>
+              <div class="item item4">
+                <div class="item-img">
+                  <img
+                    src="Images/Latest_release_img/johnmayer2.jpg"
+                    alt="coldplay album cover"
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="album-details">
+                  <p class="song-details">
+                    <span class="title">Gravity</span>
+                  </p>
+                  <p>
+                    <span class="artist-title">John Mayer</span>
+                  </p>
+                </div>
+                <div class="dropdown-dots">
+                  <button class="three-dot">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <div class="drop-down">
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                      <span>Play Now</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-add"></i>
+                      <span>Add To Queue</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-heart"></i>
+                      <span>Add To Favourites</span>
+                    </a>
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-circle-info"></i>
+                      <span>Get Info</span>
+                    </a>
+                  </div>
+                  <p class="duration">3:46</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-artists section-divisor">
+            <header class="section-head mt-3 mb-3">
+              <h3 class="section-head-h3">
+                <a href="#">Popular Artists</a>
+              </h3>
+            </header>
+            <div class="popular-artist-content">
+              <div class="artist-box">
+                <div class="artist-img">
+                  <div class="artist-img-box">
+                    <img src="Images/popular_artist_img/artist1.jpg" alt="" />
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <p class="artist-name">Ed Sheeran</p>
+                </div>
+                <div class="artist-img">
+                  <div class="artist-img-box">
+                    <img src="Images/popular_artist_img/artist2.jpeg" alt="" />
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <p class="artist-name">Coldplay</p>
+                </div>
+                <div class="artist-img">
+                  <div class="artist-img-box">
+                    <img src="Images/popular_artist_img/artist3.jpg" alt="" />
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <p class="artist-name">Arijit Singh</p>
+                </div>
+                <div class="artist-img">
+                  <div class="artist-img-box">
+                    <img src="Images/popular_artist_img/artist4.jpg" alt="" />
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <p class="artist-name">Maroon 5</p>
+                </div>
+                <div class="artist-img">
+                  <div class="artist-img-box">
+                    <img src="Images/popular_artist_img/artist5.jpg" alt="" />
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <p class="artist-name">John Mayer</p>
+                </div>
+                <div class="artist-img">
+                  <div class="artist-img-box">
+                    <img src="Images/popular_artist_img/artist6.jpg" alt="" />
+                    <a href="singleArtist.html">
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <p class="artist-name">Charlie Puth</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Radio Station section -->
+          <div class="radio-stations section-divisor section-divisor-m">
+            <div class="radio-stations-logo">
+              <div id="box1">
+                <div id="box2">
+                  <div id="logo-box">
+                    <img src="Images/radio_station_img/radio-icon.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="station-type">
+              <div class="station-theme">
+                <img
+                  src="Images/radio_station_img/RADIO1.png"
+                  alt="image of a laptop"
+                />
+                <p class="staion-theme-name">Chill</p>
+              </div>
+              <div class="station-theme">
+                <img
+                  src="Images/radio_station_img/RADIO2.png"
+                  alt="image of a book"
+                />
+                <p class="staion-theme-name">Love</p>
+              </div>
+              <div class="station-theme">
+                <img
+                  src="Images/radio_station_img/RADIO3.png"
+                  alt="image of a lady singing pop"
+                />
+                <p class="staion-theme-name">Pop</p>
+              </div>
+              <div class="station-theme">
+                <img
+                  src="Images/radio_station_img/RADIO4.jpg"
+                  alt="image of a disk"
+                />
+                <p class="staion-theme-name">Retro</p>
+              </div>
+              <div class="station-theme">
+                <img
+                  src="Images/radio_station_img/RADIO5.jpg"
+                  alt="image of a persone performing"
+                />
+                <p class="staion-theme-name">Rock</p>
+              </div>
+              <div class="station-theme">
+                <img
+                  src="Images/radio_station_img/RADIO6.png"
+                  alt="image of a gym"
+                />
+                <p class="staion-theme-name">Workout</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- theme music section -->
+
+          <div class="theme-music section-divisor">
+            <div class="theme-container">
+              <div class="theme-type">
+                <div class="theme-shadow"></div>
+                <p class="theme-name">Party</p>
+              </div>
+            </div>
+            <div class="theme-container">
+              <div class="theme-type">
+                <div class="theme-shadow"></div>
+                <p class="theme-name">Electronic</p>
+              </div>
+            </div>
+            <div class="theme-container">
+              <div class="theme-type">
+                <div class="theme-shadow"></div>
+                <p class="theme-name">Roadtrip</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- latest english section -->
+          <div class="latest-english section-divisor">
+            <header class="section-head mt-3 mb-3">
+              <h3 class="section-head-h3">
+                <a href="#">Latest English</a>
+              </h3>
+            </header>
+            <div class="latest-content">
+              <figure class="album-box">
+                <img src="Images/latest_english/dawn_FM_Weekend.jpeg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Dawn FM</h3>
+                  <p class="album-detail-artist">The Weekend</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img
+                  src="Images/latest_english/dont_Wake_Jonas_Blue.jpg"
+                  alt=""
+                />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Don't wake me up</h3>
+                  <p class="album-detail-artist">Jonas Blue</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_english/grey_suit_SUHO.jpeg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Grey Suit</h3>
+                  <p class="album-detail-artist">Suho</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img
+                  src="Images/latest_english/I_AINT_ONE_REPULBIC.jpg"
+                  alt=""
+                />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">I ain't got</h3>
+                  <p class="album-detail-artist">One Republic</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_english/if_i_halsey.jpg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">If i</h3>
+                  <p class="album-detail-artist">Halsey</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img
+                  src="Images/latest_english/thats_hilarious_Charlie.jpg"
+                  alt=""
+                />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">That's Hilarious</h3>
+                  <p class="album-detail-artist">Charlie Puth</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Latest hindi song -->
+          <div class="latest-hindi section-divisor">
+            <header class="section-head mt-3 mb-3">
+              <h3 class="section-head-h3">
+                <a href="#">Latest Hindi</a>
+              </h3>
+            </header>
+            <div class="latest-content">
+              <figure class="album-box">
+                <img src="Images/latest_hindi/kabir-kaise_hua.jpg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Kaise Hua</h3>
+                  <p class="album-detail-artist">Kabir Singh</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_hindi/Machayenge 4_Krsna.jpg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Machayenge 4</h3>
+                  <p class="album-detail-artist">Krsna</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_hindi/Pasoori_AliSethi.jpg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Pasoori</h3>
+                  <p class="album-detail-artist">Ali Sethi</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_hindi/Shamshera_Mithoon.jpg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Shamshera</h3>
+                  <p class="album-detail-artist">Mithoon</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_hindi/bhool_Bhulaiyaa 2.jpg" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Bhool Bhulaiyaa</h3>
+                  <p class="album-detail-artist">Bhool Bhulaiyaa 2</p>
+                </div>
+              </figure>
+              <figure class="album-box">
+                <img src="Images/latest_hindi/genda phool.png" alt="" />
+                <div class="album-detail">
+                  <h3 class="album-detail-song-title">Genda Phool</h3>
+                  <p class="album-detail-artist">Badshaah</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <aside class="content-right">
+          <header class="aside-header">
+            <h2 class="aside-h2">Queue</h2>
+            <div class="queue-pop">
+              <!-- <h3 class="aside-h3"> -->
+              <label for="queue-pop-box">
+                <span>Queue</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <input type="checkbox" id="queue-pop-box" />
+              <!-- </h3> -->
+              <div class="queue-options" id="queue-option-box">
+                <ul>
+                  <li class="queue-option-list">
+                    <a href="">Playlists</a>
+                  </li>
+                  <li class="queue-option-list">
+                    <a href="">Favourite songs</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </header>
+          <div class="playlist-container">
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">1</p>
+                <div class="playlist-item-img">
+                  <img
+                    src="Images/latest_english/dont_Wake_Jonas_Blue.jpg"
+                    alt=""
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Don't wake up</p>
+                  <p class="playlist-song-artist">Jonas Blue</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">2</p>
+                <div class="playlist-item-img">
+                  <img
+                    src="Images/latest_english/dawn_FM_Weekend.jpeg"
+                    alt=""
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Dawn FM</p>
+                  <p class="playlist-song-artist">The Weekend</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">3</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_english/grey_suit_SUHO.jpeg" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Grey Suit</p>
+                  <p class="playlist-song-artist">Suho</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">4</p>
+                <div class="playlist-item-img">
+                  <img
+                    src="Images/latest_english/I_AINT_ONE_REPULBIC.jpg"
+                    alt=""
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">I ain't</p>
+                  <p class="playlist-song-artist">One Republic</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">5</p>
+                <div class="playlist-item-img">
+                  <img
+                    src="Images/latest_english/thats_hilarious_Charlie.jpg"
+                    alt=""
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">That's hilarious</p>
+                  <p class="playlist-song-artist">Charlie Puth</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">6</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_english/if_i_halsey.jpg" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">If i</p>
+                  <p class="playlist-song-artist">Halsey</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">7</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_hindi/bhool_Bhulaiyaa 2.jpg" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">bhool_Bhulaiyaa</p>
+                  <p class="playlist-song-artist">bhool_Bhulaiyaa 2</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">8</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_hindi/genda phool.png" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Genda Phool</p>
+                  <p class="playlist-song-artist">Badshaah</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">9</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_hindi/kabir-kaise_hua.jpg" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Kaise Hua</p>
+                  <p class="playlist-song-artist">Kabir Singh</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">10</p>
+                <div class="playlist-item-img">
+                  <img
+                    src="Images/latest_hindi/Machayenge 4_Krsna.jpg"
+                    alt=""
+                  />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Machayenge 4</p>
+                  <p class="playlist-song-artist">Krsna</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">11</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_hindi/Pasoori_AliSethi.jpg" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Pasoori</p>
+                  <p class="playlist-song-artist">Ali Seth</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="playlist-item">
+              <div class="playlist-item-left">
+                <p class="item-num">12</p>
+                <div class="playlist-item-img">
+                  <img src="Images/latest_hindi/Shamshera_Mithoon.jpg" alt="" />
+                  <a href="singleArtist.html">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+                <div class="playlist-item-desc">
+                  <p class="playlist-song-title">Shamshera</p>
+                  <p class="playlist-song-artist">Mithoon</p>
+                </div>
+              </div>
+              <div class="playlist-item-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <!-- Footer section -->
+    <!-- Media player css -->
+    <footer class="media-player">
+      <div class="music-player">
+        <div class="song-bar">
+          <div class="song-infos">
+            <div class="image-container">
+              <img src="Images/Latest_release_img/coldplay.png" alt="" />
+            </div>
+            <div class="song-description">
+              <p class="title">Paradise</p>
+              <p class="artist">Coldplay</p>
+            </div>
+          </div>
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-compress"></i>
+          </div>
+        </div>
+        <div class="progress-controller">
+          <div class="control-buttons">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="play-pause fas fa-play"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-undo-alt"></i>
+          </div>
+          <div class="progress-container">
+            <span>0:49</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <span>3:15</span>
+          </div>
+        </div>
+        <div class="other-features">
+          <i class="fas fa-list-ul"></i>
+          <i class="fas fa-desktop"></i>
+          <div class="volume-bar">
+            <i class="fas fa-volume-down"></i>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script to make the mobile navigation works -->
+    <script>
+      const btnNavEl = document.querySelector(".btn-mobile-nav");
+      const navbarTopEl = document.querySelector(".navbar-top");
+      btnNavEl.addEventListener("click", function () {
+        navbarTopEl.classList.toggle("nav-open");
+      });
+    </script>
+  </body>
+</html>
